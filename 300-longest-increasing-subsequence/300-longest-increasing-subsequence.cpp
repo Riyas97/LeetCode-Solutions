@@ -25,7 +25,7 @@ public:
         int mnum = 1;
         for (int i = nums.size() - 1; i >= 0; i--) {
             int sqlen = dp(nums, seq, i);
-            cout << i << " " << sqlen << "\n";
+            //cout << i << " " << sqlen << "\n";
             mnum = max(mnum, sqlen);
         }
         return mnum;
