@@ -1,16 +1,11 @@
-bool comp(vector<int>& x, vector<int>& y) { 
-    return x[1] < y[1]; 
-}
-
 class Solution {
-public:  
+public:
     int findMinArrowShots(vector<vector<int>>& points) {
-        sort(points.begin(), points.end(), comp);
-        //[this] 
-        //     (vector<int> a, vector<int> b) {
-        //         return a[1] < b[1]; 
-        //     }
-        //    );
+        sort(points.begin(), points.end(), [this] 
+             (vector<int>& a, vector<int>& b) {
+                 return a[1] < b[1]; 
+             }
+            );
         
         int ans = 1;
         int keep = points[0][1];
