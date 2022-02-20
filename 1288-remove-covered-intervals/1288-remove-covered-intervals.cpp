@@ -15,8 +15,8 @@ public:
         int s2 = intervals[st][1];
         st = 1;
         while (st < intervals.size()) {
-            cout << intervals[st][0] << " " 
-                << intervals[st][1] << "\n";
+            //cout << intervals[st][0] << " " 
+            //    << intervals[st][1] << "\n";
             if (s1 <= intervals[st][0] &&
                intervals[st][1] <= s2) {
                 st++;
