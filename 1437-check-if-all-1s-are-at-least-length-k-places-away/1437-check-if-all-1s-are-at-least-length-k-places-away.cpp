@@ -4,7 +4,6 @@ public:
         int prev = -k-1;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] == 1) {
-                cout << prev << " " << i << "\n";
                 if (i - prev <= k) {  
                     return false;
                 }
