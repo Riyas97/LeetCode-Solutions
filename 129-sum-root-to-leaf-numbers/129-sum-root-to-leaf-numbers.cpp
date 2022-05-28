@@ -13,7 +13,6 @@ class Solution {
 public:
     void bfs(TreeNode* node, int& sum, string& sofar) {
         if (node == NULL) {
-            cout << sofar << "\n";
             int num = stoi(sofar);
             sum += num;
             return;
