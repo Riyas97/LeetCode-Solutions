@@ -21,9 +21,9 @@ public:
                 } else {
                     v2[i][j] = v2[i-1][j] + sum;
                 }
-                cout << v2[i][j] << " ";
+                //cout << v2[i][j] << " ";
             }
-            cout << "\n";
+            //cout << "\n";
         }
         sum = v2;
     }
