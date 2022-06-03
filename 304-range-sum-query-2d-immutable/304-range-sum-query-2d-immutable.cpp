@@ -1,12 +1,6 @@
 class NumMatrix {
 public:
-    /*
-    3 3 4 8 10
-    5 11 14 16 17
-    1 3 3 4 9
-    
-    */
-    
+
     vector<vector<int>> sum;
     
     NumMatrix(vector<vector<int>>& matrix) {
