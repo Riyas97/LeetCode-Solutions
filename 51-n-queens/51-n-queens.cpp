@@ -1,5 +1,8 @@
 class Solution {
 public:
+    /*
+    source: https://cs3243-notes.github.io/
+    */
     bool isConsistent(int var, int i, vector<int>& vect) {
         for (int j = 0; j < var; j++) {
             if (vect[j] + (var-j) == i || vect[j] - (var-j) == i) {
