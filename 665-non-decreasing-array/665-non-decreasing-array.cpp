@@ -13,10 +13,11 @@ public:
                 return false;
             }
             changed = true;
-            // conditions where u change i
+            // conditions where u change i+1
             if ((i != 0 && nums[i+1] < nums[i-1])) {
                 nums[i+1] = nums[i]; 
             } else {
+                // conditions where u change i
                 continue;
             }
         }
