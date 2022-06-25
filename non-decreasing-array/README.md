@@ -1,3 +1,4 @@
+[Discussion Post (created on 25/5/2022 at 21:11)](https://leetcode.com/problems/non-decreasing-array/discuss/2195372/C%2B%2BSimple-Solution)  
 <h2>665. Non-decreasing Array</h2><h3>Medium</h3><hr><div><p>Given an array <code>nums</code> with <code>n</code> integers, your task is to check if it could become non-decreasing by modifying <strong>at most one element</strong>.</p>
 
 <p>We define an array is non-decreasing if <code>nums[i] &lt;= nums[i + 1]</code> holds for every <code>i</code> (<strong>0-based</strong>) such that (<code>0 &lt;= i &lt;= n - 2</code>).</p>
